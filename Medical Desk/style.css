@@ -1,0 +1,672 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+    overflow-x: hidden;
+    width: 1920px;
+}
+.header{
+    background-color:#09425A ;
+}
+.container{
+    padding: 38px 0;
+    display: flex;
+    align-items: center;
+}
+.container img{
+    position: relative;
+    padding-left: 175px;
+}
+.language-picker__form{
+    position: absolute;
+    right: 175px;
+    border: 1px;
+}
+#language-picker-select{
+    width: 204px;
+    height: 44px;
+    background: #F0F4F5;
+    border-radius: 6px;
+}
+.return-button{
+    position: relative;
+    padding-left: 175px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+}
+.front-text{
+    width: 80%;
+    color: #09425A;
+    font-family: Poppins; 
+    margin-bottom: 115px;
+}
+.front-text h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    position: relative;
+    margin: auto;
+    padding: 32px 0px 25px 260px;
+}
+.front-text p{
+    position: relative;
+    padding-left: 260px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.main-container{
+    max-width: 1920px;
+    margin: auto;
+    margin-left: 260px;
+    position: relative;
+    
+}
+/*----------Step 01----------*/
+.step-1{
+    color: #09425A;
+    margin-bottom: 65px;
+}
+.step-1 h2, .step-2 h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    padding-bottom: 37px;
+}
+.parking{
+    background: #D0D8DA;
+    border-radius: 5px;
+    max-width: 1402px;
+}
+.parking2{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 57px 0px ;
+}
+.watch{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 57px 0px ;
+    display: none;
+}
+
+.fa-location-dot{
+    padding-left: 70px;
+    padding-right: 52px;   
+}
+.parking2 h4{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: left;
+}
+.parking2 a{
+    position: absolute;
+    right: 350px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #09425A;
+}
+/*-------------STEP 02 --------*/
+.step-2{
+    color: #09425A;
+    margin-bottom: 53px;
+}
+.step-3 h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-4{
+    flex-basis: 25%;
+    padding-right: 20px;
+}
+.long-cuboid{
+    max-width: 352px;
+    max-height: 150px;
+    margin-bottom: 50px;
+    background: #D0D8DA;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.long-cuboid2{
+    max-width: 352px;
+    max-height: 150px;
+    margin-bottom: 50px;
+    background: #0FB7B6;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.top-cuboid{
+    padding: 18px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+.top-cuboid h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+.col-4 .long-cuboid .top-cuboid .fa-circle-info{
+    background: #D0D8DA;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+.col-4 .long-cuboid2 .top-cuboid .fa-circle-info{
+    background:#0FB7B6;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+.main-cuboid{
+    padding: 20px 22px 25px 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.price, .quantity{
+    flex-basis: 50%;
+}
+.price h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+}
+.product-select, .product-select2{
+    width: 100px;
+    height: 48px;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    padding: 0px 14px;
+    outline: none;
+}
+.product-select{
+    background: #D0D8DA;
+}
+.product-select2{
+    background: #0FB7B6;
+}
+.list1{
+    color:#0FB7B6;
+    background: #FFFFFF;
+}
+
+/*----------STEP 3 ---*/
+.step-3{
+    color: #09425A;
+    margin-bottom: 50px;
+}
+.step-3 h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    padding-bottom: 37px;
+}
+/***date sector***/
+.date h3, .orari h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 10px;
+}
+.col-8{
+    flex-basis: 180px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+.small-cuboid{
+    width: 165px;
+    padding: 10px 15px;
+    background: #D0D8DA;
+    color: #969696;
+    border-radius: 5px;
+}
+.small-cuboid-active{
+    width: 165px;
+    padding: 10px 15px;
+    background: #0FB7B6;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.small-cuboid-upcoming{
+    width: 165px;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    color: #0FB7B6;
+    border-radius: 5px;
+    border: 2px solid #0FB7B6;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.small-cuboid-upcoming:hover{
+    color: #FFFFFF;
+    background: #0FB7B6;
+}
+.small-cuboid-content{
+    text-align: center;
+}
+.small-cuboid-content h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    top: 10px  
+}
+/***STEP4***/
+.step-4{
+    color: #09425A;
+}
+.step-4 h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    padding-bottom: 37px;
+}
+.col-2{
+    display: flex;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    align-items: center;
+    flex-basis: 50%;
+}
+.col-2 label{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 18px;
+}
+
+.name, .email, .nationality, .birth-date, .residency{
+    padding-right: 118px;
+}
+.email h6{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.mobile-phone{
+    padding-bottom: 40px;
+}
+input[type="text"],input[type="email"],input[type="date"],input[type="number"],input[type="month"] {
+    width: 642px;
+    height: 63px;
+    border:1px solid #0FB7B6;
+    border-radius: 5px;
+    outline: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #a3a3a3;
+    padding-left: 30px;
+}
+.birth-date input[type="date"]{
+    text-transform: uppercase;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator, 
+input[type="month"]::-webkit-inner-spin-button,
+input[type="month"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.checkbox-input{
+    display: inline-flex;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.checkbox-input input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 22px;
+}
+.checkbox-input h1{
+    margin-right: 44px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/****----------terms and conditions------*****/
+.terms{
+    padding: 10px 0px 30px 0px;
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+    margin-bottom: 50px;
+}
+.terms .space span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.space{
+    margin-bottom: 35px;
+}
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    background: #0FB7B6;
+    border-radius: 1px;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+.checkboxes label span {
+    vertical-align: middle;
+}
+/*****-------AVANTI BUTTON------------*****/
+.btn{
+    margin-bottom: 86px;
+}
+.btn button{
+    width: 530px;
+    height: 100px;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D0D8DA;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: #16C5B3;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+/*------------STEP 5 ------------*/
+.step-5{
+    color: #09425A;
+    margin-bottom: 65px;
+}
+.step-5 h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    padding-bottom: 37px;
+}
+.fatura h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.group{
+    margin: 45px 15px 90px 0px;
+}
+.group button{
+    width: 348px;
+    height: 109px;
+    background: #D0D8DA;
+    border-radius: 5px;
+    border: none;
+    color: #009ABB;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition:transform 0.25s ease;
+}
+.group button:hover{
+    color: #FFFFFF;
+    background: #0FB7B6;
+    -webkit-transform:scale(1.2);
+    transform:scale(1.1);
+
+}
+.fa-users, .fa-user{
+    margin-right: 54px;
+}
+.space2{
+    padding-bottom: 60px;
+}
+
+/*------------STEP 6 ------------*/
+.step-6{
+    color: #09425A;
+}
+.step-6 h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    padding-bottom: 37px; 
+}
+.credit-card{
+    max-width: 1000px;
+    margin-bottom: 53px;
+}
+.credit-card label{
+    vertical-align: middle;
+}
+.credit-card input[type="radio"]{
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    margin-right: 27px;
+}
+.credit-card span{
+    margin-right: 85px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.mastercard, .visa{
+    margin-right: 35px;
+}
+/*----credit card info----*/
+.credit-card-container{
+    margin-top: 40px;
+    max-width: 1400px;
+}
+.credit-card-structure{
+    background: #F0F4F5;
+    border-radius: 5px;
+    padding: 44px 0 50px 30px;
+    width: 1400px;
+}
+.credit-card-structure label{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 18px;
+}
+.provinzia{
+    padding-bottom: 30px;
+}
+.provinzia input[type="text"]{
+    width: 1340px;
+}
+.scadenza{
+    padding-right: 55px ;
+    position: relative;
+}
+.fa-credit-card,.fa-credit-card{
+    color: #E5E5E5;
+    float: right;
+    position: absolute;
+    bottom: 17px;
+    right: 85px;
+}
+.scadenza input[type="month"]{
+    -webkit-appearance: none
+}
+.cvc{
+    position: relative;
+}
+.cvc .fa-credit-card{
+    color: #E5E5E5;
+    float: right;
+    position: absolute;
+    bottom: 17px;
+    right: 27px;
+}
+/*-----paypal--------*/
+.paypal{
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+.paypal-pos{
+    margin-right: 40px;
+}
+
+.paypal-pos{
+    align-self: center;
+}
+.paypal-info a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    position: relative;
+    bottom: 25px;
+    color: #09425A;
+}
+.google-play{
+    margin-bottom: 50px;
+}
+.credit-card .terms{
+    margin-top: 60px;
+}
+
+/*---SUBMIT---*/
+.confirm{
+    margin-bottom: 150px;
+}
+.confirm input[type="submit"]{
+    width: 530px;
+    height: 100px;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #16C5B3;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+/*-----------FOOTER----------*/
+.footer{
+    background: #09425A;
+    color: #FFFFFF;
+    font-family: Poppins;
+}
+.footer-container{
+    margin: 20px auto 70px 260px;
+    display: flex;
+}
+.information{
+    padding: 27px 50px 27px 0px;
+}
+.info1{
+    padding-bottom: 27px
+}
+.info1 img{
+    width:100px;
+    height:35px;
+}
+.info2 h6{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+/*-support-*/
+.support{
+    padding: 20px;
+    padding-left: 60px;
+}
+.supp1{
+    padding-bottom: 35px;
+    padding-left: 30px;
+}
+.supp1 h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.supp2{
+    display: flex;
+}
+.supp2 h5{
+    padding-left: 30px;
+}
+
+.supp2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.footnote{
+    margin: 20px auto 0px 260px;
+    padding-bottom: 65px;
+}
+.footnote h6{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+    .front-text h2{
+        padding: 35px 0px 25px auto;
+  }
+}

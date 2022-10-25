@@ -1,0 +1,180 @@
+@media(max-width: 600px){
+    .body{
+        font-family: Poppins;
+        max-width: none;
+    }
+    .container{
+        padding: 22px 0px;
+    }
+    .container img{
+        padding-left: 30px;
+        width: 91px;
+    }
+    .language-picker__form{
+        display: none;
+    }
+
+    .return-button{
+        position: relative;
+        padding-left: 30px;
+        padding-top: 26px;
+        padding-bottom: 15px;
+    }
+    .return-button img{
+        width: 31px;
+        height:31px
+    }
+    .front-text{
+        width: 355px ;
+        height: 87;
+    }
+    .front-text h2{
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 40px;
+        position: relative;
+        margin: auto;
+        padding: 32px 0px 25px 75px;
+        text-align: center;
+    }
+    .front-text p{
+        position: relative;
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center; 
+    }
+    /*----------Step 01----------*/
+    .main-container{
+        margin: 0px 32px 0px 32px;
+    }
+    .step-1 h2, .step-2 h2{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 37px;
+    }
+    .parking{
+        width: 100%;
+        max-width: 320px;
+        height: 250px;
+    }
+    .parking2{
+        display: block;
+        align-items: center;
+        border-radius: 5px;
+        padding: 15px 0px ;
+    }
+    .parking2 h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: right;
+    display: inline-block;
+    padding-left: px;
+    }
+    .watch{
+        display: block;
+        justify-content: center;
+        border-radius: 5px;
+        padding: 15px 0px ;
+    }
+    .fa-location-dot,.fa-clock{
+        padding-left: 20px;
+        padding-right: 20px;   
+    }
+    .watch i{
+        display: inline-block;
+    }
+    .watch h4{
+        display: inline-block;
+    }
+    .more a{
+        position: static;
+        float: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #09425A;
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+    /*-------------STEP 02 --------*/
+    .row{
+        display: block;
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .long-cuboid, .long-cuboid2{
+        max-width: 345px;
+        max-height: 150px;
+        margin-bottom: 20px;
+    }
+    /*-------------STEP 03 --------*/
+    .step-3 h2{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+    .date h3, .orari h3{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;    
+    }
+    .step-3 .row{
+        display: flex;
+    }
+    .col-8{
+        flex-basis: 50%;
+        padding-bottom: 25px;
+        padding-right: 25px;
+    }
+    /*-------------STEP 03 --------*/
+    .step-4 h2{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .col-2{
+        display: block;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        align-items: center;
+    }
+    .col-2 label{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .name, .email, .nationality, .birth-date, .residency{
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+    .email h6{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .mobile-phone{
+        padding-bottom: 0px;
+    }
+    input[type="text"],input[type="email"],input[type="date"],input[type="number"],input[type="month"] {
+        max-width: 350px;
+        height: 40px;
+    }
+}
